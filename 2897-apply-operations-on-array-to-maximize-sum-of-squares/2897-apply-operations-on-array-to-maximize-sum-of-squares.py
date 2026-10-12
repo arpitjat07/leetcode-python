@@ -4,9 +4,10 @@ class Solution:
         cnt = [0] * 31
 
         for x in nums:
-            for b in range(31):
-                if x & (1 << b):
-                    cnt[b] += 1
+            while x:
+                b = (x & -x).bit_length() - 1
+                cnt[b] += 1
+                x &= x - 1
 
         ans = 0
 
