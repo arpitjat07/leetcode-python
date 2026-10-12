@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2333-minimum-sum-of-squared-difference](https://github.com/arpitjat07/leetcode-solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/arpitjat07/leetcode-solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/arpitjat07/leetcode-solutions/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/arpitjat07/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/arpitjat07/leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/arpitjat07/leetcode-solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/arpitjat07/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/arpitjat07/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/arpitjat07/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/arpitjat07/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/arpitjat07/leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/arpitjat07/leetcode-solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -340,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/arpitjat07/leetcode-solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [2029-stone-game-ix](https://github.com/arpitjat07/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/arpitjat07/leetcode-solutions/tree/master/2333-minimum-sum-of-squared-difference) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/arpitjat07/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/arpitjat07/leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/arpitjat07/leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/arpitjat07/leetcode-solutions/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -520,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/arpitjat07/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/arpitjat07/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0461-hamming-distance](https://github.com/arpitjat07/leetcode-solutions/tree/master/0461-hamming-distance) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/arpitjat07/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/arpitjat07/leetcode-solutions/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/arpitjat07/leetcode-solutions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Doubly-Linked List
