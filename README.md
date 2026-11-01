@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/arpitjat07/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/arpitjat07/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0416-partition-equal-subset-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/arpitjat07/leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0486-predict-the-winner](https://github.com/arpitjat07/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0692-top-k-frequent-words](https://github.com/arpitjat07/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [0877-stone-game](https://github.com/arpitjat07/leetcode-solutions/tree/master/0877-stone-game) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/arpitjat07/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0273-integer-to-english-words](https://github.com/arpitjat07/leetcode-solutions/tree/master/0273-integer-to-english-words) |
 | [0279-perfect-squares](https://github.com/arpitjat07/leetcode-solutions/tree/master/0279-perfect-squares) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/arpitjat07/leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0486-predict-the-winner](https://github.com/arpitjat07/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/arpitjat07/leetcode-solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/arpitjat07/leetcode-solutions/tree/master/1140-stone-game-ii) |
