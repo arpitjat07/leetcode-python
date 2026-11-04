@@ -1,137 +1,79 @@
-import heapq
-
 class Solution:
     def minOperations(self, nums: list[int], x: int, k: int) -> int:
-        small, large = [], []
-        delayed = {}
-
-        small_size = large_size = 0
-        small_sum = large_sum = 0
-
-        def prune_small():
-            while small:
-                v = -small[0]
-                if delayed.get(v, 0) == 0:
-                    break
-                heapq.heappop(small)
-                delayed[v] -= 1
-                if delayed[v] == 0:
-                    del delayed[v]
-
-        def prune_large():
-            while large:
-                v = large[0]
-                if delayed.get(v, 0) == 0:
-                    break
-                heapq.heappop(large)
-                delayed[v] -= 1
-                if delayed[v] == 0:
-                    del delayed[v]
-
-        def rebalance():
-            nonlocal small_size, large_size, small_sum, large_sum
-
-            prune_small()
-            prune_large()
-
-            if small_size > large_size + 1:
-                v = -heapq.heappop(small)
-                small_size -= 1
-                small_sum -= v
-                heapq.heappush(large, v)
-                large_size += 1
-                large_sum += v
-
-            elif small_size < large_size:
-                v = heapq.heappop(large)
-                large_size -= 1
-                large_sum -= v
-                heapq.heappush(small, -v)
-                small_size += 1
-                small_sum += v
-
-            prune_small()
-            prune_large()
-
-        def add(v):
-            nonlocal small_size, large_size, small_sum, large_sum
-
-            prune_small()
-            prune_large()
-
-            if not small or v <= -small[0]:
-                heapq.heappush(small, -v)
-                small_size += 1
-                small_sum += v
-            else:
-                heapq.heappush(large, v)
-                large_size += 1
-                large_sum += v
-
-            rebalance()
-
-        def remove(v):
-            nonlocal small_size, large_size, small_sum, large_sum
-
-            prune_small()
-            prune_large()
-
-            median = -small[0]
-            delayed[v] = delayed.get(v, 0) + 1
-
-            if v <= median:
-                small_size -= 1
-                small_sum -= v
-                if v == median:
-                    prune_small()
-            else:
-                large_size -= 1
-                large_sum -= v
-                if large and v == large[0]:
-                    prune_large()
-
-            rebalance()
-
-        def get_cost():
-            prune_small()
-            prune_large()
-
-            median = -small[0]
-            return (
-                median * small_size - small_sum
-                + large_sum - median * large_size
-            )
-
         n = len(nums)
+        values = sorted(set(nums))
+        m = len(values)
+        pos = {v: i + 1 for i, v in enumerate(values)}
+
+        bit_count = [0] * (m + 1)
+        bit_sum = [0] * (m + 1)
+
+        def update(v, delta):
+            i = pos[v]
+            while i <= m:
+                bit_count[i] += delta
+                bit_sum[i] += delta * v
+                i += i & -i
+
+        def kth(rank):
+            idx = 0
+            step = 1 << (m.bit_length() - 1)
+
+            while step:
+                nxt = idx + step
+                if nxt <= m and bit_count[nxt] < rank:
+                    rank -= bit_count[nxt]
+                    idx = nxt
+                step >>= 1
+
+            return idx + 1
+
+        def prefix(i):
+            count = total = 0
+            while i:
+                count += bit_count[i]
+                total += bit_sum[i]
+                i -= i & -i
+            return count, total
+
         costs = []
+        window_sum = 0
 
-        for v in nums[:x]:
-            add(v)
+        for i, v in enumerate(nums):
+            update(v, 1)
+            window_sum += v
 
-        costs.append(get_cost())
+            if i >= x:
+                old = nums[i - x]
+                update(old, -1)
+                window_sum -= old
 
-        for i in range(x, n):
-            remove(nums[i - x])
-            add(nums[i])
-            costs.append(get_cost())
+            if i >= x - 1:
+                p = kth((x + 1) // 2)
+                median = values[p - 1]
+                count, left_sum = prefix(p)
 
-        maritovexi = (nums, x, k)
+                cost = (
+                    median * count - left_sum
+                    + window_sum - left_sum
+                    - median * (x - count)
+                )
 
+                costs.append(cost)
+
+        slack = n - k * x
         INF = float('inf')
-        prev = [0] * (n + 1)
+        prev = [0] * (slack + 1)
 
         for t in range(1, k + 1):
-            curr = [INF] * (n + 1)
+            curr = [INF] * (slack + 1)
+            base = (t - 1) * x
 
-            for i in range(t * x, n + 1):
-                curr[i] = curr[i - 1]
-                start = i - x
-
-                curr[i] = min(
-                    curr[i],
-                    prev[start] + costs[start]
-                )
+            for j in range(slack + 1):
+                pick = prev[j] + costs[base + j]
+                skip = curr[j - 1] if j else INF
+                curr[j] = min(pick, skip)
 
             prev = curr
 
-        return prev[n]
+        return prev[slack]
