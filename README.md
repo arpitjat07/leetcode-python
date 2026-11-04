@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/arpitjat07/leetcode-solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/arpitjat07/leetcode-solutions/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/arpitjat07/leetcode-solutions/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/arpitjat07/leetcode-solutions/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/arpitjat07/leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/arpitjat07/leetcode-solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/arpitjat07/leetcode-solutions/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/arpitjat07/leetcode-solutions/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3731-find-missing-elements](https://github.com/arpitjat07/leetcode-solutions/tree/master/3731-find-missing-elements) |
 ## Math
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2409-count-days-spent-together](https://github.com/arpitjat07/leetcode-solutions/tree/master/2409-count-days-spent-together) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/arpitjat07/leetcode-solutions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/arpitjat07/leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/arpitjat07/leetcode-solutions/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/arpitjat07/leetcode-solutions/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/arpitjat07/leetcode-solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3886-sum-of-sortable-integers](https://github.com/arpitjat07/leetcode-solutions/tree/master/3886-sum-of-sortable-integers) |
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/arpitjat07/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/arpitjat07/leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/arpitjat07/leetcode-solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/arpitjat07/leetcode-solutions/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -368,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/arpitjat07/leetcode-solutions/tree/master/1563-stone-game-v) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/arpitjat07/leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/arpitjat07/leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/arpitjat07/leetcode-solutions/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/arpitjat07/leetcode-solutions/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/arpitjat07/leetcode-solutions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Greedy
@@ -427,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/arpitjat07/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/arpitjat07/leetcode-solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/arpitjat07/leetcode-solutions/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/arpitjat07/leetcode-solutions/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/arpitjat07/leetcode-solutions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Matrix
 |  |
