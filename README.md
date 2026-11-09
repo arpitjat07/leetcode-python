@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/arpitjat07/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1563-stone-game-v](https://github.com/arpitjat07/leetcode-solutions/tree/master/1563-stone-game-v) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/arpitjat07/leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/arpitjat07/leetcode-solutions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [2029-stone-game-ix](https://github.com/arpitjat07/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/arpitjat07/leetcode-solutions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/arpitjat07/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/arpitjat07/leetcode-solutions/tree/master/0220-contains-duplicate-iii) |
 | [0327-count-of-range-sum](https://github.com/arpitjat07/leetcode-solutions/tree/master/0327-count-of-range-sum) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/arpitjat07/leetcode-solutions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/arpitjat07/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Dynamic Programming
 |  |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/arpitjat07/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/arpitjat07/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0692-top-k-frequent-words](https://github.com/arpitjat07/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/arpitjat07/leetcode-solutions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/arpitjat07/leetcode-solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/arpitjat07/leetcode-solutions/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/arpitjat07/leetcode-solutions/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
@@ -684,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/arpitjat07/leetcode-solutions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/arpitjat07/leetcode-solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 ## Bracket Sequences
 |  |
