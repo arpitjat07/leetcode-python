@@ -1,30 +1,30 @@
 from collections import deque
-from typing import List
 
 class Solution:
     def countNonDecreasingSubarrays(self, nums: List[int], k: int) -> int:
         dq = deque()
-        j = len(nums) - 1
+        n = len(nums)
+        j = n - 1
         cost = ans = 0
 
-        for i in range(len(nums) - 1, -1, -1):
-            x = nums[i]
-            cnt = 1
+        for i in range(n - 1, -1, -1):
+            num = nums[i]
+            count = 1
 
-            while dq and dq[-1][0] < x:
-                v, c = dq.pop()
-                cnt += c
-                cost += (x - v) * c
+            while dq and dq[-1][0] < num:
+                val, cnt = dq.pop()
+                count += cnt
+                cost += (num - val) * cnt
 
-            dq.append((x, cnt))
+            dq.append((num, count))
 
             while cost > k:
-                v, c = dq.popleft()
-                cost -= v - nums[j]
+                val, cnt = dq.popleft()
+                cost -= val - nums[j]
                 j -= 1
 
-                if c > 1:
-                    dq.appendleft((v, c - 1))
+                if cnt > 1:
+                    dq.appendleft((val, cnt - 1))
 
             ans += j - i + 1
 
